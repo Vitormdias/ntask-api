@@ -3,7 +3,7 @@ module.exports = app => {
     findAll: (params, callback) => {
       return callback([
         {title: "Fazer compras"},
-        {title: "Consertar o pc"},
+        {title: "Consertar o pc"}
       ]);
     }
   }
