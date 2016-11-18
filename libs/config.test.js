@@ -10,7 +10,7 @@ module.exports = {
       underscored: true
     }
   },
-  jwtSecret: "Nta$K-AP1",
+  jwtSecret: "NTASK-TEST",
   jwtSession: {
     session: false
   }
