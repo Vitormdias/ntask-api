@@ -6,7 +6,7 @@
   "repository": "ntask-api",
   "scripts": {
     "start": "babel-node index.js",
-    "test": "NODE_ENV=test && mocha test/**/*.js"
+    "test": "NODE_ENV=test && istanbul cover _mocha -- -u exports -R spec test/**/*.js"
   },
   "author": "Vitor Manfré",
   "dependencies": {
@@ -23,6 +23,7 @@
     "sqlite3": "^3.1.8"
   },
   "devDependencies": {
+    "babel-istanbul": "^0.11.0",
     "babel-register": "^6.5.2",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
