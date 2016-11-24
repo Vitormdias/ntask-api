@@ -16,6 +16,7 @@
     "body-parser": "^1.15.2",
     "codecov": "^1.0.1",
     "consign": "^0.1.2",
+    "cors": "^2.7.1",
     "express": "^4.13.4",
     "jwt-simple": "^0.4.1",
     "passport": "^0.3.2",
