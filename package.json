@@ -6,7 +6,7 @@
   "repository": "ntask-api",
   "scripts": {
     "start": "babel-node index.js",
-    "test": "NODE_ENV=test && istanbul cover _mocha -- -u exports -R spec test/**/*.js"
+    "test": "NODE_ENV=test && istanbul cover _mocha -- -u exports -R spec test/**/*.js && codecov -t b3c5cfad-d0fa-4a04-b625-09b528f67859"
   },
   "author": "Vitor Manfré",
   "dependencies": {
@@ -14,6 +14,7 @@
     "babel-preset-es2015": "^6.5.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.2",
+    "codecov": "^1.0.1",
     "consign": "^0.1.2",
     "express": "^4.13.4",
     "jwt-simple": "^0.4.1",
