@@ -6,3 +6,7 @@
 
 
 API de Gestão de Tarefas
+
+
+Deployed on Heroku, can be acessed in:
+https://my-tasks-api.herokuapp.com/
